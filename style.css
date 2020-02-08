@@ -501,13 +501,12 @@ p {
 }
 .wrapper {
   display: flex;
-  align-items: center;
   max-width: 1024px;
   height: 100%;
+  align-items: center;
   margin: 0 auto;
 }
 .nav_menu_wrapper {
-  
   width: 100%;
 }
 .list_var {
@@ -530,9 +529,9 @@ p {
 .main {
   display: flex;
   margin: 0 auto;
-  background-color: rgb(211, 211, 211);
   height: 800px;
   width: 1200px;
+  background-color: rgb(211, 211, 211);
   box-shadow: 0 0 5px rgb(122, 122, 122);
 }
 .main_wrapper {
@@ -573,13 +572,12 @@ img {
   margin-top: 30px;
 }
 .main_summary p {
+  font-size: 16px;
   color: #000000;
   padding: 10px 0;
-  font-size: 16px;
 }
 .main_skills {
   display: flex;
- 
   margin-top: 30px;
 }
 .skills_wr {
@@ -589,16 +587,16 @@ img {
   margin-left: 30px;
 }
 .design_skills li{
-  color: #000000;
   font-size: 16px;
+  color: #000000;
   line-height: 1.6;
 }
 .design_skills ul{
 margin-top: 10px;
 }
 .web_development_skills li{
-  color: #000000;
   font-size: 16px;
+  color: #000000;
   line-height: 1.6;
 }
 .web_development_skills ul{
@@ -613,9 +611,9 @@ margin-top: 10px;
 .main_part2 {
   display: flex;
   height: 600px;
+  width: 1200px;
   margin: 30px auto;
   background-color: rgb(211, 211, 211);
-  width: 1200px;
   box-shadow: 0 0 5px rgb(122, 122, 122);
 }
  .main_wrapper2 {
@@ -686,9 +684,9 @@ display: block;
 }
 .wrapper {
 display: flex;
-align-items: center;
 max-width: 1140px;
 height: 100%;
+align-items: center;
 margin: 0 auto;
 }
 .main_footer_wrapper {
