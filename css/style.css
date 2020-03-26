@@ -1,0 +1,245 @@
+/* content_style_start */
+body {
+  background-color: grey;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+}
+h1 {
+  margin-left: 30px;
+  color: #000000;
+  font-size: 40px;
+  font-weight: 800;
+}
+h2 {
+  color: #000000;
+  font-size: 30px;
+  font-weight: 600;
+}
+h3 {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+p {
+  line-height: 1.6;
+}
+/* header_style_start */
+.main-header {
+  height: 80px;
+  background-color: #222;
+  margin-bottom: 40px;
+}
+.wrapper {
+  display: flex;
+  max-width: 1024px;
+  height: 100%;
+  align-items: center;
+  margin: 0 auto;
+}
+.nav-menu-wrapper {
+  width: 100%;
+}
+.list-var {
+  display: flex;
+  justify-content: space-around;
+}
+.list-item  {
+  color: rgb(192, 192, 192);
+  text-decoration: none;
+}
+
+.list-item:hover,
+.list-item:focus,
+.list-item:active {
+  color: #ffdedb;
+}
+/* header_style_end */
+
+/* main_style_start */
+.main {
+  display: flex;
+  margin: 0 auto;
+  height: 800px;
+  width: 1200px;
+  background-color: rgb(211, 211, 211);
+  box-shadow: 0 0 5px rgb(122, 122, 122);
+}
+.main-wrapper {
+  display: inline-block;
+  width: 1100px;
+  margin: 0 auto;
+}
+.main-photo {
+  display: flex;
+  align-items: center;
+}
+
+.main-photo .img1 {
+  border: 2px solid rgb(211, 211, 211);
+}
+.main-info {
+  display: inline-block;
+  margin-top: 30px;
+}
+.main-info ul a {
+  color: #000;
+  text-decoration: none;
+}
+.main-info ul a:hover,
+.main-info ul a:focus,
+.main-info ul a:active {
+  color: grey;
+}
+.main-info li {
+  color: #000000;
+  margin: 10px 0;
+}
+.main-info ul {
+  font-size: 16px;
+}
+.main-summary {
+  display: inline-block;
+  margin-top: 30px;
+}
+.main-summary p {
+  font-size: 16px;
+  color: #000000;
+  padding: 10px 0;
+}
+.main-skills {
+  display: flex;
+  margin-top: 30px;
+}
+.skills-wr {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 400px;
+  margin-left: 30px;
+}
+.design-skills li{
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.6;
+}
+.design-skills ul{
+margin-top: 10px;
+}
+.web-development-skills li{
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.6;
+}
+.web-development-skills ul{
+  margin-top: 10px;
+  }
+  .main-work-experience {
+    display: inline-flex;  }
+/* main_style_end */
+
+/*main_part2_style_start*/
+
+.main-part2 {
+  display: flex;
+  height: 600px;
+  width: 1200px;
+  margin: 30px auto;
+  background-color: rgb(211, 211, 211);
+  box-shadow: 0 0 5px rgb(122, 122, 122);
+}
+ .main-wrapper2 {
+  display: inline-block;
+  width: 1100px;
+  margin: 0 auto;
+}
+.main-work-experience {
+display: block;
+}
+.main-work-experience p {
+  padding: 10px 0 ;
+}
+.main-work-experience a {
+    color: #000;
+    text-decoration: none;
+  }
+.main-work-experience  a:hover,
+.main-work-experience  a:focus,
+.main-work-experience  a:active {
+    color: grey;
+  }
+
+.main-studying {
+  display: block;
+  margin-top: 20px;
+}
+.main-studying a {
+  color: #000000;
+  text-decoration: none;
+  line-height: 1.6;
+}
+.main-studying h3{
+  padding-top: 10px;
+
+}
+.main-studying  li{
+  padding-top: 10px;
+}
+
+.main-studying  a:hover,
+.main-studying  a:focus,
+.main-studying  a:active {
+  color: grey;
+}
+.main-studying p{
+  line-height: 1.6;
+  padding-top: 10px;
+
+}
+.main-lang {
+  margin-top: 20px;
+}
+.main-lang ul {
+  margin-top: 10px;
+}
+.main-lang li {
+  line-height: 1.6;
+  padding-top: 10px;
+}
+/*main_part2_style_end*/
+
+/* footer_style_start */
+
+.main-footer {
+  height: 80px;
+  background-color: #222;
+}
+.wrapper {
+display: flex;
+max-width: 1140px;
+height: 100%;
+align-items: center;
+margin: 0 auto;
+}
+.main-footer-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.main-footer-wrapper ul{
+  display: flex;
+  justify-content: space-between;
+
+}
+.main-footer-wrapper a {
+  color: rgb(192, 192, 192);
+  text-decoration: none;
+}
+.main-footer-wrapper a:hover,
+.list-item:focus,
+.list-item:active {
+  color: #ffdedb;
+}
+
+/* footer_style_end */
+/* content_style_end */
